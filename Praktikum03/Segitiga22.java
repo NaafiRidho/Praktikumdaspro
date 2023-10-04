@@ -7,9 +7,9 @@ public class Segitiga22 {
         
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Masukkan alas:");
+        System.out.print("Masukkan alas:");
         alas = sc.nextInt();
-        System.out.println("Masukkan tinggi:");
+        System.out.print("Masukkan tinggi:");
         tinggi= sc.nextInt();
 
         luas = alas * tinggi /2;
