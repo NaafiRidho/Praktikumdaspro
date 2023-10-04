@@ -32,7 +32,7 @@ public class pilihanswitch22 {
 
 
         }
-        System.out.println(angka1+angka2+operator+"="+hasil);
+        System.out.println(angka1+""+operator+""+angka2+""+"="+hasil);
     }
     
 }
