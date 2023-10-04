@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class pilihanswitch22 {
     public static void main(String[] args) {
-        Scanner sc  = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        double angka1, angka2, hasil=0 ;
+        double angka1, angka2, hasil = 0;
         char operator;
 
         System.out.println("masukkan angka 1");
@@ -16,23 +16,25 @@ public class pilihanswitch22 {
         System.out.println("masukkan operator (+-*:)");
         operator = sc.next().charAt(0);
 
-        switch (operator){
-            case'+':
-            hasil = angka1+angka2;
-            break;
-            case'-':
-            hasil = angka1-angka2;
-            break;
-            case'*':
-            hasil = angka1*angka2;
-            break;
-            case'/':
-            hasil = angka1/angka2;
-            break;
-
-
+        switch (operator) {
+            case '+':
+                hasil = angka1 + angka2;
+                break;
+            case '-':
+                hasil = angka1 - angka2;
+                break;
+            case '*':
+                hasil = angka1 * angka2;
+                break;
+            case '/':
+                hasil = angka1 / angka2;
+                break;
+            default:
+                System.out.println("belum terdata");
+                break;
+3
         }
-        System.out.println(angka1 + "" + operator + "" + angka2 + ""+ "=" + hasil);
+        System.out.println(angka1 + "" + operator + "" + angka2 + "" + "=" + hasil);
     }
-    
+
 }
