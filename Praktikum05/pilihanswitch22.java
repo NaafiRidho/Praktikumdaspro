@@ -19,20 +19,22 @@ public class pilihanswitch22 {
         switch (operator) {
             case '+':
                 hasil = angka1 + angka2;
+                System.out.println(hasil);
                 break;
             case '-':
                 hasil = angka1 - angka2;
+                System.out.println(hasil);
                 break;
             case '*':
                 hasil = angka1 * angka2;
+                System.out.println(hasil);
                 break;
             case '/':
                 hasil = angka1 / angka2;
                 break;
             default:
                 System.out.println("belum terdata");
-                break;
-3
+                return;
         }
         System.out.println(angka1 + "" + operator + "" + angka2 + "" + "=" + hasil);
     }

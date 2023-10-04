@@ -26,6 +26,7 @@ public class pemilihanoperator {
             System.out.println(angka1 * angka2);
         } else {
             System.out.println("tidak valid");
+            return;
         }
 
         System.out.println(angka1 + "" + operator + "" + angka2 + "" + "=" + hasil);
