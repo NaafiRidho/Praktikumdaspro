@@ -23,7 +23,7 @@ public class gaji22 {
             gajiBersih = (int) (penghasilan -(pajak*penghasilan));
             System.out.println("penghasilan bersih : " + gajiBersih);
         }
-        else if (kategori.equals("pembisnis")){
+        else if (kategori.equalsIgnoreCase("pembisnis")){
             if (penghasilan <=2500000)
             pajak= 0.15;
             else if (penghasilan <= 3000000)
