@@ -2,9 +2,10 @@ package Praktikum10;
 
 public class bioskop22 {
     public static void main(String[] args) {
-        String[][] penonton = new String[4][2];
+        String[][] penonton = new String[4][3];
         penonton[0][0]= "amin";
         penonton[0][1]= "bena";
+        penonton[0][2]= "angga";
         penonton[1][0]= "candra";
         penonton[1][1]= "dela";
         penonton[2][0]= "eka";
@@ -21,9 +22,9 @@ public class bioskop22 {
         for(String[] barisPenonton:penonton){
             System.out.println("panjang baris " + barisPenonton.length);
         }
-        System.out.println("penonton pada baris ke-3: ");
-        for(String i : penonton[2]){
-            System.out.println(i);
+
+        for(int i =0; i<penonton.length; i++){
+            System.out.println("penonton pada baris ke- " + (i+1) + ": " + String.join(", " ,penonton[i]));
         }
     }
 }
