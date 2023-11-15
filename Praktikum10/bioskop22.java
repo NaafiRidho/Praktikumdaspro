@@ -2,10 +2,9 @@ package Praktikum10;
 
 public class bioskop22 {
     public static void main(String[] args) {
-        String[][] penonton = new String[4][3];
+        String[][] penonton = new String[4][2];
         penonton[0][0]= "amin";
         penonton[0][1]= "bena";
-        penonton[0][2]= "angga";
         penonton[1][0]= "candra";
         penonton[1][1]= "dela";
         penonton[2][0]= "eka";
